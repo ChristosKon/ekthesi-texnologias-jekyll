@@ -1,0 +1,1 @@
+web: browser-sync start --server /mnt/project/_site --port 8000 --files="**" --no-ui

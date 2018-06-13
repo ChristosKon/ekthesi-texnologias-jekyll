@@ -1,0 +1,34 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-inverse br-back">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="{{ '/' | prepend: site.baseurl }}">Έκθεση Τεχνολογίας</a>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ '/' | prepend: site.baseurl }}">Αρχική</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/ligalogia' | prepend: site.baseurl }}">Λίγα Λόγια</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/xronies/2017' | prepend: site.baseurl }}">Έκθεση 2017</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="/" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Προηγούμενες Εκθέσεις
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="{{ '/xronies/2016' | prepend: site.baseurl }}">2016</a>
+                    </div>
+                </li>
+            </ul>
+            <div class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ '/contact' | prepend: site.baseurl }}">Επικοινωνία</a>
+                </li>
+            </div>
+        </div>
+    </div>
+</nav>

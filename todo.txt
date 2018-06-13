@@ -1,0 +1,26 @@
+- Move Ekthesi to Jekyll (13,5h)
+    - Create head, header, footer - done
+    - Create layouts (3h) - 1h 
+        Layouts: Homepage, Info (liga logia, 2017, contact, meraki, ensomatosh, exostrefeia), 2016, maketes
+    - Handle assets (1h) - 0,5h done
+    - Create CSS/SASS (3h) - done
+    - Create JS (1h)
+    - Upload content (4h)
+        - Contact - done
+        - Liga logia - done
+        - Homepage - done
+        - Exostrefeia, Meraki, Ensomatosh - done
+        - 2017 - done
+        - 2016 - in progress (missing uploadimage)
+        - maketes
+    - Test (2h)
+    - Deploy (0,5h)
+- Move quiz to Jekyll (5h)
+    - Understand how to do it with builds etc
+    - Create head, header, footer (0,5h)
+    - Create layouts (1h)
+    - Create CSS/SASS (0,5h)
+    - Create JS (0,5h)
+    - Upload content (1h)
+    - Test (1h)
+    - Deploy (0,5h)
