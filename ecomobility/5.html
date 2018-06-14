@@ -1,0 +1,36 @@
+---
+layout: ecomobility
+title: ecomobility-5
+permalink: /ecomobility/5/
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img class="image-max-h" src="{{ '/assets/img/ecomobility/balcony.jpg' | prepend: site.baseurl }}" alt=""/>
+        </div>
+    </div>
+    <div class="row justify-content-center pt-4 grass-padding">
+        <div class="col-md-12 text-center">
+            <h2> 4. Πως θα χαρακτήριζες το μπαλκόνι σου; </h2>
+        </div>
+        <div class="col-md-12 text-center">
+            <form id="myForm" class=" form-inline justify-content-center" action="{{ '/ecomobility/6' | prepend: site.baseurl }}" method="get">
+                <ul class="donate-now w110">
+                    <li>
+                        <input type="radio" id="a1" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a1">Έχει κάποιες γλάστρες.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a2" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a2">Είναι σχεδόν άδειο από φυτά.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a3" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a3">Καταπράσινο.</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

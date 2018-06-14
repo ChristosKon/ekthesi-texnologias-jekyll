@@ -1,0 +1,40 @@
+---
+layout: ecomobility
+title: ecomobility-8
+permalink: /ecomobility/8/
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img class="image-max-h" src="{{ '/assets/img/ecomobility/rampa.jpg' | prepend: site.baseurl }}" alt=""/>
+        </div>
+    </div>
+    <div class="row justify-content-center pt-4 grass-padding">
+        <div class="col-md-12 text-center">
+            <h2> 7. Βλέπεις ένα αυτοκίνητο παρκαρισμένο μπροστά σε μια ράμπα αναπήρων. Τί κάνεις;</h2>
+        </div>
+        <div class="col-md-12 text-center">
+            <form id="myForm" class="form-inline justify-content-center" action="{{ '/ecomobility/9' | prepend: site.baseurl }}" method="get">
+                <ul class="donate-now w150">
+                    <li>
+                        <input type="radio" id="a1" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a1"> Τίποτα. Δε με αφορά, δεν είμαι ανάπηρος. </label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a2" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a2"> Καλά έκανε. Που να το παρκάρει ο άνθρωπος. </label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a3" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a3"> Του σηκώνω τους υαλοκαθαριστήρες. </label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a4" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a4"> Τηλεφωνώ στην Τροχαία για να τον γράψει. </label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

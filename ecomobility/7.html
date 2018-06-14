@@ -1,0 +1,40 @@
+---
+layout: ecomobility
+title: ecomobility-7
+permalink: /ecomobility/7/
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img class="image-max-h" src="{{ '/assets/img/ecomobility/pirgos.jpg' | prepend: site.baseurl }}" alt=""/>
+        </div>
+    </div>
+    <div class="row justify-content-center pt-4 grass-padding">
+        <div class="col-md-12 text-center">
+            <h2> 6. Για να πας βόλτα ως το Λευκό Πύργο, ποιόν τρόπο μετακίνησης προτιμας; </h2>
+        </div>
+        <div class="col-md-12 text-center">
+            <form id="myForm" class=" form-inline justify-content-center" action="{{ '/ecomobility/8' | prepend: site.baseurl }}" method="get">
+                <ul class="donate-now h68">
+                    <li>
+                        <input type="radio" id="a1" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a1">Με το ποδήλατο.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a2" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a2">Με τα πόδια.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a3" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a3">Με το αυτοκίνητο.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a4" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a4">Με το λεωφορείο.</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

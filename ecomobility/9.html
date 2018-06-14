@@ -1,0 +1,40 @@
+---
+layout: ecomobility
+title: ecomobility-9
+permalink: /ecomobility/9/
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img class="image-max-h" src="{{ '/assets/img/ecomobility/oasth.jpg' | prepend: site.baseurl }}" alt=""/>
+        </div>
+    </div>
+    <div class="row justify-content-center pt-4 grass-padding">
+        <div class="col-md-12 text-center">
+            <h2> 8. Περιμένεις 45' στη στάση κι έρχεται το λεωφορείο ασφυκτικά γεμάτο. Τι κάνεις;</h2>
+        </div>
+        <div class="col-md-12 text-center">
+            <form id="myForm" class="form-inline justify-content-center" action="{{ '/ecomobility/final' | prepend: site.baseurl }}" method="get">
+                <ul class="donate-now w150">
+                    <li>
+                        <input type="radio" id="a1" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a1"> Τίποτα. Στην Ελλάδα ζούμε! </label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a2" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a2"> Το καταγγέλεις στου αρμόδιους.  </label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a3" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a3"> Βρίζεις τον οδηγό. </label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a4" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a4"> Σπρώχνεις τους άλλους για να μπεις εσύ. </label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

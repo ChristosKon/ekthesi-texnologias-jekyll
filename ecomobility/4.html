@@ -1,0 +1,36 @@
+---
+layout: ecomobility
+title: ecomobility-4
+permalink: /ecomobility/4/
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img class="image-max-h" src="{{ '/assets/img/ecomobility/trash.jpg' | prepend: site.baseurl }}" alt="" />
+        </div>
+    </div>
+    <div class="row justify-content-center pt-4 grass-padding">
+        <div class="col-md-12 text-center">
+            <h2> 3. Αν δεις κάτω στο δρόμο ένα σκουπίδι, που δεν το έριξες εσύ, τι θα κάνεις; </h2>
+        </div>
+        <div class="col-md-12 text-center">
+            <form id="myForm" class=" form-inline justify-content-center" action="{{ '/ecomobility/5' | prepend: site.baseurl }}" method="get">
+                <ul class="donate-now h92">
+                    <li>
+                        <input type="radio" id="a1" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a1">Τίποτα.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a2" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a2">Θα το πετάξω στον κάδο.</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a3" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a3">Θα το κλοτσήσω.</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

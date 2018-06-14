@@ -1,0 +1,32 @@
+---
+layout: ecomobility
+title: ecomobility-3
+permalink: /ecomobility/3/
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center">
+            <img class="image-max-h" src="http://polydomiki.gr/wp-content/uploads/Bosch_TSS_02.jpg" alt=""/>
+        </div>
+    </div>
+    <div class="row justify-content-center pt-4 grass-padding">
+        <div class="col-md-12 text-center">
+            <h2> 2. Έχεις ηλιακό θερμοσίφωνα; </h2>
+        </div>
+        <div class="col-md-12 text-center">
+            <form id="myForm" class=" form-inline justify-content-center" action="{{ '/ecomobility/4' | prepend: site.baseurl }}" method="get">
+                <ul class="donate-now">
+                    <li>
+                        <input type="radio" id="a25" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a25">Όχι</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a50" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a50">Ναι</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>

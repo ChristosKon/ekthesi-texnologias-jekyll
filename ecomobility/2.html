@@ -1,0 +1,32 @@
+---
+layout: ecomobility
+title: ecomobility-2
+permalink: /ecomobility/2/
+---
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <img class="image-max-h" src="http://new.keepkingwoodgreen.org/wp-content/uploads/2017/06/recyclingtypes.png" alt="" />
+        </div>
+    </div>
+    <div class="row justify-content-center pt-4 grass-padding">
+        <div class="col-md-12 text-center">
+            <h2> 1. Κάνεις ανακύκλωση; </h2>
+        </div>
+        <div class="col-md-12 text-center">
+            <form id="myForm" class=" form-inline justify-content-center" action="{{ '/ecomobility/3' | prepend: site.baseurl }}" method="get">
+                <ul class="donate-now">
+                    <li>
+                        <input type="radio" id="a25" name="question" value="wrong" onclick="validateRadio();" >
+                        <label for="a25">Όχι</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="a50" name="question" value="right" onclick="validateRadio();" >
+                        <label for="a50">Ναι</label>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+</div>
