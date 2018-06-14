@@ -10,7 +10,9 @@ permalink: /ecomobility/final/
             <h3 id="score"> </h3>
             <h2 id="result" class="pt-4"> </h2>
             <p id="description" class="pb-4"> </p>
-            <button type="button" class="btn btn-outline-success" onclick="window.location.href=' {{ '/ecomobility' | prepend: site.baseurl }}'">Παίξε ξανά!</button>
+            <form id="myForm" class=" form-inline justify-content-center" action="{{ '/ecomobility' | prepend: site.baseurl }}" method="get">
+                <button type="button" class="btn btn-outline-success">Παίξε ξανά!</button>
+            </form>
         </div>
     </div>
 </div>

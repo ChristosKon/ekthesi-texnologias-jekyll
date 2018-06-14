@@ -17,7 +17,9 @@ permalink: /ecomobility/
     </div>
     <div class="row pt-3">
         <div class="col-md-12">
-            <button type="button" class="btn btn-outline-success btn-lg" onclick="window.location.href=' {{ '/ecomobility/2' | prepend: site.baseurl }}'">Ας ξεκινήσουμε!</button>
+             <form id="myForm" class=" form-inline justify-content-center" action="{{ '/ecomobility/2' | prepend: site.baseurl }}" method="get">
+                 <button type="submit" class="btn btn-outline-success btn-lg">Ας ξεκινήσουμε!</button>
+            </form>
         </div>
     </div>
 </div>
